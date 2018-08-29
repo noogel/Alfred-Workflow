@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alfredapp.xyz.utils.first</string>
-	<key>category</key>
-	<string>Tools</string>
 	<key>connections</key>
 	<dict>
 		<key>38B36C36-6835-400D-A254-96AB152F48C9</key>
@@ -87,6 +85,19 @@
 			</dict>
 		</array>
 		<key>BF98EDBB-9ACA-4E29-96CE-26AF502FE8F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>995EB8BF-2708-4605-800F-350330D2797A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D365EF7A-521C-4430-8C00-244E86C21CB2</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -189,6 +200,49 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>BF98EDBB-9ACA-4E29-96CE-26AF502FE8F6</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nu8c</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string>python scripts.py "nu8c {query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>utf-8 to char</string>
+				<key>title</key>
+				<string>utf-8 to char</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>D365EF7A-521C-4430-8C00-244E86C21CB2</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -324,23 +378,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>autopaste</key>
-				<false/>
-				<key>clipboardtext</key>
-				<string>{query}</string>
-				<key>transient</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.clipboard</string>
-			<key>uid</key>
-			<string>995EB8BF-2708-4605-800F-350330D2797A</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
 				<key>argumenttype</key>
@@ -421,6 +458,23 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>EF1DB538-6677-41D5-B8D9-A3B03D9AACFE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>995EB8BF-2708-4605-800F-350330D2797A</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -643,9 +697,9 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		<key>995EB8BF-2708-4605-800F-350330D2797A</key>
 		<dict>
 			<key>xpos</key>
-			<integer>610</integer>
+			<integer>710</integer>
 			<key>ypos</key>
-			<integer>230</integer>
+			<integer>300</integer>
 		</dict>
 		<key>BF0E9C60-7F72-42A6-8E9C-E41312D3F626</key>
 		<dict>
@@ -658,6 +712,13 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		<dict>
 			<key>xpos</key>
 			<integer>280</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>D365EF7A-521C-4430-8C00-244E86C21CB2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>

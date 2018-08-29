@@ -62,8 +62,16 @@ CATEGORY_MAP = {
     "nip": {
         "func": "get_ip_info",
         "title": u"查询 IP 信息"
+    },
+    "nu8c": {
+        "func": "utf8_to_char",
+        "title": u"UTF-8编码转中文"
     }
 }
+
+
+def utf8_to_char(strs):
+    return eval(u"\"{}\".decode('utf-8')".format(strs))
 
 
 def you_need_help(strs):
@@ -86,11 +94,39 @@ def base64_decode(strs):
 
 def unixtime_or_datetime_convert(strs):
     """时间戳与正常时间转换"""
+    dt_fmt = "%Y-%m-%d"
     fmt = "%Y-%m-%d %H:%M:%S"
-    try:
-        return time.strftime(fmt, time.localtime(int(strs)))
-    except:
-        return str(int(time.mktime(time.strptime(strs, fmt))))
+    strs = strs.strip()
+    s_title = u"秒级『{}』".format(strs)
+    ms_title = u"毫秒『{}』".format(strs)
+    if strs.isdigit():
+        second = int(strs) / 1000
+        m_second = int(strs) % 1000
+        return [{
+            "cmd": time.strftime(fmt, time.localtime(int(strs))),
+            "title": s_title
+        }, {
+            "cmd": "{}.{}".format(time.strftime(fmt, time.localtime(int(second))), m_second),
+            "title": ms_title
+        }]
+    else:
+        try:
+            ts = int(time.mktime(time.strptime(strs, dt_fmt)))
+            return [{
+                "cmd": str(ts), "title": s_title},
+                {"cmd": str(ts * 1000), "title": ms_title}]
+        except:
+            try:
+                ts = int(time.mktime(time.strptime(strs, fmt)))
+                return [{
+                    "cmd": str(ts),
+                    "title": s_title
+                }, {
+                    "cmd": str(ts * 1000),
+                    "title": ms_title
+                }]
+            except:
+                return u"请输入正确格式的时间戳、日期「%Y-%m-%d」、时间「%Y-%m-%d %H:%M:%S」"
 
 
 def random_string(length, is_pun=False):
@@ -262,6 +298,11 @@ def get_ip_info(ip):
 
 
 def main(wf):
+    """
+    入口函数
+    :param wf:
+    :return:
+    """
     # 去掉参数两边的空格
     params = (wf.args or [""])[0].strip().split(" ")
     optype, param = params[0].strip(), " ".join(params[1:]).strip()
