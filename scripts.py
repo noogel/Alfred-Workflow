@@ -326,7 +326,7 @@ def main(wf):
                 wf.add_item(
                     title=item["title"],
                     subtitle=item["cmd"],
-                    arg=param,
+                    arg=item["cmd"],
                     valid=True,
                     icon=ICON_INFO)
         else:
