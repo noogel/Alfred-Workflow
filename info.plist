@@ -4,8 +4,36 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.alfredapp.xyz.utils.first</string>
+	<key>category</key>
+	<string>Tools</string>
 	<key>connections</key>
 	<dict>
+		<key>1B793AE9-211A-4A5F-9FEE-F5820008AEA2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>995EB8BF-2708-4605-800F-350330D2797A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>24036CC0-C39B-4537-B384-62C466698BE8</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>995EB8BF-2708-4605-800F-350330D2797A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>38B36C36-6835-400D-A254-96AB152F48C9</key>
 		<array>
 			<dict>
@@ -45,6 +73,32 @@
 				<false/>
 			</dict>
 		</array>
+		<key>66C1143C-C5F5-492C-9037-1D25F651F068</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>995EB8BF-2708-4605-800F-350330D2797A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6F4E93B7-2B52-494C-9914-2655E4D8EDF9</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>995EB8BF-2708-4605-800F-350330D2797A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>8E0A6556-6B78-4AE9-BF5C-C0DF917658A1</key>
 		<array>
 			<dict>
@@ -71,6 +125,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>B2F47926-9700-4D24-B8F4-F243C48D4745</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>393DDBEB-9EA4-4244-8C1A-D9931B55E914</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>BF0E9C60-7F72-42A6-8E9C-E41312D3F626</key>
 		<array>
 			<dict>
@@ -85,19 +152,6 @@
 			</dict>
 		</array>
 		<key>BF98EDBB-9ACA-4E29-96CE-26AF502FE8F6</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>995EB8BF-2708-4605-800F-350330D2797A</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>D365EF7A-521C-4430-8C00-244E86C21CB2</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -165,12 +219,16 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>nhelp</string>
+				<string>nhp</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -182,7 +240,7 @@
 				<key>runningsubtext</key>
 				<string>Loading...</string>
 				<key>script</key>
-				<string>python scripts.py "nhelp {query}"</string>
+				<string>python scripts.py "you_need_help {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -208,12 +266,16 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>nu8c</string>
+				<string>ncp</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -223,17 +285,17 @@
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string>Loading...</string>
+				<string>Inputing...</string>
 				<key>script</key>
-				<string>python scripts.py "nu8c {query}"</string>
+				<string>python scripts.py "copy_you_input {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
 				<string></string>
 				<key>subtext</key>
-				<string>utf-8 to char</string>
+				<string>Copy you input.</string>
 				<key>title</key>
-				<string>utf-8 to char</string>
+				<string>复制你的输入</string>
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
@@ -242,7 +304,7 @@
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>D365EF7A-521C-4430-8C00-244E86C21CB2</string>
+			<string>1B793AE9-211A-4A5F-9FEE-F5820008AEA2</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -251,12 +313,16 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>ntime</string>
+				<string>ntm</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -268,7 +334,7 @@
 				<key>runningsubtext</key>
 				<string>Converting...</string>
 				<key>script</key>
-				<string>python scripts.py "ntime {query}"</string>
+				<string>python scripts.py "unixtime_or_datetime_convert {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -294,12 +360,16 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>nb64d</string>
+				<string>n64d</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -311,7 +381,7 @@
 				<key>runningsubtext</key>
 				<string>Converting...</string>
 				<key>script</key>
-				<string>python scripts.py "nb64d {query}"</string>
+				<string>python scripts.py "base64_decode {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -337,6 +407,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -354,7 +428,7 @@
 				<key>runningsubtext</key>
 				<string>Generating...</string>
 				<key>script</key>
-				<string>python scripts.py "nu2c {query}"</string>
+				<string>python scripts.py "unicode_to_char {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -380,12 +454,63 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>keyword</key>
-				<string>nb64e</string>
+				<string>nu8c</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Generating...</string>
+				<key>script</key>
+				<string>python scripts.py "utf8_to_char {query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>UTF-8 2 Char.</string>
+				<key>title</key>
+				<string>UTF-8 2 Char</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>66C1143C-C5F5-492C-9037-1D25F651F068</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>n64e</string>
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
@@ -397,7 +522,7 @@
 				<key>runningsubtext</key>
 				<string>Converting...</string>
 				<key>script</key>
-				<string>python scripts.py "nb64e {query}"</string>
+				<string>python scripts.py "base64_encode {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -423,6 +548,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -440,7 +569,7 @@
 				<key>runningsubtext</key>
 				<string>Generating...</string>
 				<key>script</key>
-				<string>python scripts.py "nc2u {query}"</string>
+				<string>python scripts.py "char_to_unicode {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -458,6 +587,53 @@
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>EF1DB538-6677-41D5-B8D9-A3B03D9AACFE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nsum</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Geting...</string>
+				<key>script</key>
+				<string>python scripts.py "sum_numbers {query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Get numbers sum.</string>
+				<key>title</key>
+				<string>数字求和</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6F4E93B7-2B52-494C-9914-2655E4D8EDF9</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
@@ -483,6 +659,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -500,7 +680,7 @@
 				<key>runningsubtext</key>
 				<string>Generating...</string>
 				<key>script</key>
-				<string>python scripts.py "nmd5 {query}"</string>
+				<string>python scripts.py "generage_md5 {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -526,6 +706,57 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nfm</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Geting...</string>
+				<key>script</key>
+				<string>python scripts.py "base_reformat {query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Simple stirng reformat.</string>
+				<key>title</key>
+				<string>简单的字符串格式化</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>24036CC0-C39B-4537-B384-62C466698BE8</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -543,7 +774,7 @@
 				<key>runningsubtext</key>
 				<string>Converting...</string>
 				<key>script</key>
-				<string>python scripts.py "ncny {query}"</string>
+				<string>python scripts.py "cny_capital {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -567,8 +798,31 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>http://noogel.xyz</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>393DDBEB-9EA4-4244-8C1A-D9931B55E914</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -586,7 +840,7 @@
 				<key>runningsubtext</key>
 				<string>Generating...</string>
 				<key>script</key>
-				<string>python scripts.py "nrdm {query}"</string>
+				<string>python scripts.py "random_string {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -612,6 +866,10 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -629,7 +887,7 @@
 				<key>runningsubtext</key>
 				<string>Geting...</string>
 				<key>script</key>
-				<string>python scripts.py "nip {query}"</string>
+				<string>python scripts.py "get_ip_info {query}"</string>
 				<key>scriptargtype</key>
 				<integer>0</integer>
 				<key>scriptfile</key>
@@ -650,6 +908,121 @@
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>ng</string>
+				<key>subtext</key>
+				<string>Scaning author blog.</string>
+				<key>text</key>
+				<string>浏览作者博客</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B2F47926-9700-4D24-B8F4-F243C48D4745</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nip</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Geting...</string>
+				<key>script</key>
+				<string>python scripts.py "get_ip_info {query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Search IP info.</string>
+				<key>title</key>
+				<string>查询 IP 信息</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>EB040F04-A4CF-471C-B5AD-A2CE532D9E8E</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>nip</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Geting...</string>
+				<key>script</key>
+				<string>python scripts.py "get_ip_info {query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Search IP info.</string>
+				<key>title</key>
+				<string>查询 IP 信息</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>66158987-A33A-47E5-886E-9AE1129A79A7</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Alfred's Script Filter object is extremely powerful, and gives you control over the results displayed in Alfred.
@@ -659,12 +1032,33 @@ Alfred 3 now supports JSON, which is the recommended format. XML is also support
 A new option now exists for Script Filters, "Alfred filters results". This allows you to return a whole list of results, let Alfred do the subsequent filtering with extreme performance. When this option is selected, your script will be called once with no argument.</string>
 	<key>uidata</key>
 	<dict>
+		<key>1B793AE9-211A-4A5F-9FEE-F5820008AEA2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>30</integer>
+		</dict>
+		<key>24036CC0-C39B-4537-B384-62C466698BE8</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>440</integer>
+		</dict>
 		<key>38B36C36-6835-400D-A254-96AB152F48C9</key>
 		<dict>
 			<key>xpos</key>
 			<integer>280</integer>
 			<key>ypos</key>
 			<integer>580</integer>
+		</dict>
+		<key>393DDBEB-9EA4-4244-8C1A-D9931B55E914</key>
+		<dict>
+			<key>xpos</key>
+			<integer>710</integer>
+			<key>ypos</key>
+			<integer>440</integer>
 		</dict>
 		<key>459A0847-2C04-4337-B8C8-2DD584B01BEF</key>
 		<dict>
@@ -679,6 +1073,27 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 			<integer>280</integer>
 			<key>ypos</key>
 			<integer>440</integer>
+		</dict>
+		<key>66158987-A33A-47E5-886E-9AE1129A79A7</key>
+		<dict>
+			<key>xpos</key>
+			<integer>280</integer>
+			<key>ypos</key>
+			<integer>580</integer>
+		</dict>
+		<key>66C1143C-C5F5-492C-9037-1D25F651F068</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>170</integer>
+		</dict>
+		<key>6F4E93B7-2B52-494C-9914-2655E4D8EDF9</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>300</integer>
 		</dict>
 		<key>8E0A6556-6B78-4AE9-BF5C-C0DF917658A1</key>
 		<dict>
@@ -701,6 +1116,13 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 			<key>ypos</key>
 			<integer>300</integer>
 		</dict>
+		<key>B2F47926-9700-4D24-B8F4-F243C48D4745</key>
+		<dict>
+			<key>xpos</key>
+			<integer>450</integer>
+			<key>ypos</key>
+			<integer>580</integer>
+		</dict>
 		<key>BF0E9C60-7F72-42A6-8E9C-E41312D3F626</key>
 		<dict>
 			<key>xpos</key>
@@ -712,13 +1134,6 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		<dict>
 			<key>xpos</key>
 			<integer>280</integer>
-			<key>ypos</key>
-			<integer>30</integer>
-		</dict>
-		<key>D365EF7A-521C-4430-8C00-244E86C21CB2</key>
-		<dict>
-			<key>xpos</key>
-			<integer>450</integer>
 			<key>ypos</key>
 			<integer>30</integer>
 		</dict>
@@ -736,6 +1151,13 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 			<key>ypos</key>
 			<integer>530</integer>
 		</dict>
+		<key>EB040F04-A4CF-471C-B5AD-A2CE532D9E8E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>280</integer>
+			<key>ypos</key>
+			<integer>580</integer>
+		</dict>
 		<key>EF1DB538-6677-41D5-B8D9-A3B03D9AACFE</key>
 		<dict>
 			<key>xpos</key>
@@ -745,7 +1167,7 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0</string>
+	<string>1.0.1</string>
 	<key>webaddress</key>
 	<string>http://noogel.xyz</string>
 </dict>
