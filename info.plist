@@ -1167,7 +1167,7 @@ A new option now exists for Script Filters, "Alfred filters results". This allow
 		</dict>
 	</dict>
 	<key>version</key>
-	<string>1.0.1</string>
+	<string>1.1.2</string>
 	<key>webaddress</key>
 	<string>http://noogel.xyz</string>
 </dict>

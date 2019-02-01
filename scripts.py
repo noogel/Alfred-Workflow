@@ -363,11 +363,10 @@ def main(wf):
         except Exception as ex:
             result = ex.message
         if isinstance(result, basestring):
-            print result
             wf.add_item(
                 title=u"{} 『{}』".format(title, param),
-                subtitle=result,
-                arg=result,
+                subtitle=to_unicode(result),
+                arg=to_unicode(result),
                 valid=True,
                 icon=ICON_INFO)
         elif isinstance(result, list):

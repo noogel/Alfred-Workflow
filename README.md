@@ -4,9 +4,11 @@
 
 
 ## 全局预览
-![1](3971549001331.jpg)
+
+![1](assets/3971549001331.jpg)
 
 
+### 支持的功能及关键字
 
 * `ntm` 时间戳转换，支持标准时间格式与时间戳自动检测转换，回车复制结果到剪贴板
 * `n64d` Base64 解码
@@ -24,15 +26,45 @@
 * `nhp` 列出所有支持的命令
 * `ng` 浏览作者博客
 
+欢迎大家补充。
 
-#### 欢迎大家补充。
+## Alfred 及 Workflow 的安装
 
-## 个人博客
+1. [Alfred 官网](https://www.alfredapp.com/)下载安装，需要购买 Powerpack 后方可使用 Workflow 功能。
+2. 下载文件后只需要双击 `Alfred-1.1.2.alfredworkflow` 文件即可安装并使用了。
 
-[Noogel's notes](http://noogel.xyz)
+## 使用教程
 
-## Github
+帮助查看命令 `nhp`
 
-[Noogel's github](https://github.com/noogel)
+![nhp320](assets/nhp320.gif)
 
-> Update at 2017-08-17
+
+常用的时间格式转换命令`ntm`
+
+![ntm01_320](assets/ntm01_320.gif)
+
+![ntm02_320](assets/ntm02_320.gif)
+
+编码转换命令 `nu2c`、`nc2u`、`nu8c`
+
+![nu2c320](assets/nu2c320.gif)
+
+![nc2u320](assets/nc2u320.gif)
+
+![nu8c320](assets/nu8c320.gif)
+
+其它命令欢迎探索。
+
+
+
+## 关于作者
+
+博客：[Noogel's notes](http://noogel.xyz)
+
+Github：[Noogel's github](https://github.com/noogel)
+
+
+---
+
+> Update at 2019-02-01
